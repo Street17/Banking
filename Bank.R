@@ -155,7 +155,7 @@ cutoff_viz=cutoff_data %>%
   select(Cutoff,KS) %>%
   gather(Criterion,Value,KS)
 
-View(cutoff_viz) # Data is in long format
+View(cutoff_viz) # View data in long format
 
 
 str(R_train) #Training data set
