@@ -171,7 +171,7 @@ KS_cutoff
 R_test$y<- as.numeric(R_test$score<KS_cutoff) 
 glimpse(R_test$y)
 
-#Converting 0 and 2 into yes and no in y feature
+#Converting 0 and 1 into yes and no in y feature
 R_test$y <- ifelse(R_test$y==1, "yes", "no")
 glimpse(R_test$y)
 
